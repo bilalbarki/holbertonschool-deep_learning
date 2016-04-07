@@ -89,7 +89,7 @@ func main() {
 
 func sendMail(fname string, email string){
 var buf bytes.Buffer
-auth := smtp.PlainAuth("", "bilalbarki@hotmail.com", "Totallymadami7", "smtp-mail.outlook.com")
+auth := smtp.PlainAuth("", "bilalbarki@hotmail.com", "WRITE PASSWORD HERE", "smtp-mail.outlook.com")
 //set necessary variables
 from := "bilalbarki@hotmail.com"
 to := email
